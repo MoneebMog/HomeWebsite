@@ -1,0 +1,69 @@
+/* Dark mode theme */
+body {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Add some spacing and styling to the sections */
+  section {
+    padding: 2em;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav li {
+    margin-right: 1em;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Style the footer */
+  footer {
+    padding: 1em;
+    text-align: center;
+  }
+
+  header {
+    text-align: center;
+  }
+  
+  hr {
+    width: 50%;
+    margin: 1em auto;
+    border: 0.5px solid #ccc;
+  }
+  
+/* Set the container to use grid layout */
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+  }
+  
+  /* Style the individual project items */
+  .project-list li {
+    flex: 1;
+    margin-right: 2em;
+  }
+
+  /* Highlight the hovered project item */
+.project-item:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+.headerword {
+  text-decoration: none;
+  color: white;
+}
+
+.headerword:hover {
+  transition: .8s;
+  color: rgb(139, 202, 223);
+}
